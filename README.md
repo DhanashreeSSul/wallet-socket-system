@@ -23,11 +23,13 @@ This project was created as a **lab assignment (PCCOE)** to learn **network prog
 
 ## 📂 Project Structure
 
-wallet_server.py # TCP server with SQLite persistence
-wallet_client.py # CLI client (one-shot or interactive)
-wallet_gui.py # Tkinter GUI client
-wallet.db # SQLite database file (created at runtime)
-README.md # Documentation
+Wallet/ # Root project folder
+├── wallet_server.py # TCP server with SQLite persistence
+├── wallet_client.py # CLI client (one-shot or interactive)
+├── wallet_gui.py # Tkinter GUI client
+├── wallet_testrunner.py # Automated test runner (for validation/grading)
+├── wallet.db # SQLite database file (created at runtime)
+└── README.md # Project documentation
 
 
 ---
